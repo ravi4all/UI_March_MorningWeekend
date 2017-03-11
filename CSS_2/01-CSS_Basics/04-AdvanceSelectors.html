@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 20px;
+        }
+        #div1 p {
+            color: red;
+        }
+        #div1 > p {
+            color: blue;
+        }
+        #div1 + p {
+            color: greenyellow;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        ul li {
+            font-size: 20px;
+        }
+        ul li a {
+            color: darkviolet;
+            text-decoration: none;
+        }
+        ul li:first-child {
+            background-color: red;
+        }
+        ul li:last-child {
+            background-color: green;
+        }
+        ul li:nth-child(2) {
+            background-color: dodgerblue;
+        }
+        ul li:nth-child(odd) {
+            background-color: darkslategrey;
+        }
+        ul li:nth-child(even) {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+   
+   <div id="header">
+       <h1>Advance Selectors</h1>
+       <ul>
+           <li><a href="#">NavItem_1</a></li>
+           <li><a href="#">NavItem_2</a></li>
+           <li><a href="#">NavItem_3</a></li>
+           <li><a href="#">NavItem_4</a></li>
+           <li><a href="#">NavItem_5</a></li>
+       </ul>
+   </div>
+   
+   <div id="div1">
+       <p>This paragraph is inside div1....This is immediate child of div1</p>
+       <p>This paragraph is inside div1....This is immediate child of div1</p>
+       <p>This paragraph is inside div1....This is immediate child of div1</p>
+       <div class="nested">
+           <p>This paragraph is inside div1....This is not immediate child of div1...This is immediate child of nested div</p>
+           <p>This paragraph is inside div1....This is not immediate child of div1...This is immediate child of nested div</p>
+       </div>
+   </div>
+   <p>This paragraph is after div1....This paragraph is sibling of div1</p>
+   <p>This paragraph is after div1....This paragraph is sibling of div1</p>
+   <p>This paragraph is after div1....This paragraph is sibling of div1</p>
+    <p>This paragraph is after div1....This paragraph is sibling of div1</p>
+    
+</body>
+</html>
