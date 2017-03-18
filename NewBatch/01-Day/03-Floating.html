@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .column {
+            float: left;
+            width: 33%;
+        }
+        /*.blank {
+            clear: left;
+        }*/
+        .clearfix:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #header .logo {
+            float: left;
+            width: 20%;
+        }
+        #nav {
+            float: right;
+            width: 50%;
+        }
+        #nav ul {
+            list-style: none;
+        }
+        #nav ul li {
+            float: left;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Floating</h1>
+   
+   <div id="header" class="clearfix">
+       <div class="logo">
+           <img src="../../Images/logo.png" alt="logo">
+       </div>
+       <div id="nav">
+           <ul>
+               <li>Men</li>
+               <li>Women</li>
+               <li>Kids</li>
+               <li>Electronics</li>
+               <li>Furniture</li>
+           </ul>
+       </div>
+   </div>
+   
+   <div class="three-col-layout clearfix">
+       <div class="column">
+           <h2>Column_1</h2>
+           <p>
+               Python was conceived in the late 1980s, and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language
+           </p>
+           <p>
+               Python was conceived in the late 1980s, and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language
+           </p>
+       </div>
+       <div class="column">
+           <h2>Column_2</h2>
+           <p>
+               Python was conceived in the late 1980s, and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language
+           </p>
+       </div>
+       <!--<div class="blank">
+           <h2>Column after Floating element</h2>
+       </div>-->
+       <div class="column">
+           <h2>Column_3</h2>
+           <p>
+               Python was conceived in the late 1980s, and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language
+           </p>
+       </div>
+   </div>
+   <div class="column_3">
+       <h2>Column_3</h2>
+           <p>
+               Python was conceived in the late 1980s, and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language
+           </p>
+           <img src="../../Images/shopping/phn-image6.jpg" alt="">
+   </div>
+    
+</body>
+</html>
