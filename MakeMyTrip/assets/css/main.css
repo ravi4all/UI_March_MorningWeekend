@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .header_left {
+    width: 60%;
+}
+#header .header_right {
+    width: 40%;
+    text-align: right;
+    padding-top: 15px;
+}
+#header .logo {
+    width: 15%;
+    padding-top: 10px;
+}
+
+#header .logo img {
+    width: 100%;
+}
+
+#header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#header ul li {
+    display: inline-block;
+}
+
+#main-navigation {
+    margin-left: 10px;
+}
+#main-navigation ul li {
+    font-size: 12px;
+    line-height: 16px;
+    margin: -3px;
+}
+#main-navigation ul li.active a, #main-navigation ul li:hover a {
+    background-color: #124680;
+    color: #fff;
+}
+#main-navigation ul li a{
+    display: block;
+    padding: 20px 10px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.user_interaction li {
+    margin: 0px 5px;
+}
+.user_interaction li a {
+    color: #000;
+    text-decoration: none;
+}
+/*.user_interaction .icon {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    background-image: url(../images/sprite.png);
+    height: 45px;
+    background-size: 530%;
+}
+.user_interaction .rewards {
+    background-position: -2px -5px;
+}
+.user_interaction .refer {
+    background-position: -2px 145px;
+}
+.user_interaction .trips {
+    background-position: 52px -6px;
+}
+.user_interaction .support {
+    background-position: 0px -7px;
+}*/
