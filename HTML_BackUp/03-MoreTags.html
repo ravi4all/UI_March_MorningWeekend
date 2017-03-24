@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1>HTML Tags</h1>
+   <p>
+// Program to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; create a simple calculator <br>
+// Performs addition, subtraction, multiplication or division depending the input from user
+   </p>
+   <pre>
+   <code>
+# include &lt;stdio.h&gt;
+
+int main() {
+
+    char operator;
+    double firstNumber,secondNumber;
+
+    printf("Enter an operator (+, -, *, /): ");
+    scanf("%c", &amp;operator);
+
+    printf("Enter two operands: ");
+    scanf("%lf %lf",&amp;firstNumber, &amp;secondNumber);
+
+    switch(operator)
+    {
+        case '+':
+            printf("%.1lf + %.1lf = %.1lf",firstNumber, secondNumber, firstNumber+secondNumber);
+            break;
+
+        case '-':
+            printf("%.1lf - %.1lf = %.1lf",firstNumber, secondNumber, firstNumber-secondNumber);
+            break;
+
+        case '*':
+            printf("%.1lf * %.1lf = %.1lf",firstNumber, secondNumber, firstNumber*secondNumber);
+            break;
+
+        case '/':
+            printf("%.1lf / %.1lf = %.1lf",firstNumber, secondNumber, firstNumber/firstNumber);
+            break;
+
+        // operator is doesn't match any case constant (+, -, *, /)
+        default:
+            printf("Error! operator is not correct");
+    }
+
+    return 0;
+}
+  </code>
+   </pre>
+   
+   <h2>H<sub>2</sub> + O = H<sub>2</sub> O</h2>
+   
+   <h2>10<sup>2</sup> = 100</h2>
+    
+</body>
+</html>
