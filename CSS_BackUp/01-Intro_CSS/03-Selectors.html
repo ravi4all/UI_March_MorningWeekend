@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #div1 p {
+            font-size: 20px;
+            color: red;
+        }
+        #div1 > p {
+            color: green;
+        }
+        #div1 + p {
+            color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Selectors</h1>
+   
+   <div id="div1">
+       <p>This paragraph is inside div1</p>
+       <p>This paragraph is inside div1</p>
+       <p>This paragraph is inside div1</p>
+       <p>This paragraph is inside div1</p>
+       <div class="nested">
+           <p>This paragraph is also inside div1</p>
+           <p>This paragraph is also inside div1</p>
+           <p>This paragraph is also inside div1</p>
+       </div>
+   </div>
+   
+   <p>This paragraph is sibling of div1</p>
+   <p>This paragraph is sibling of div1</p>
+   <p>This paragraph is sibling of div1</p>
+   <p>This paragraph is sibling of div1</p>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-image: url("../../Images/WebImages/l8q3fcvjzllbgk5oovjs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+div {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#div1 {
+    background-image: url("../../Images/WebImages/559376_436797666338634_107844962567241_1655677_1996973502_n%20(1).jpg");
+}
+#div2 {
+    background-image: url("../../Images/WebImages/IMG-20140419-WA0002.jpg");
+}
+#div3 {
+    background-image: url("../../Images/WebImages/batman_arkham_knight-1366x768.jpg");
+}
+#div4 {
+    background-image: url("../../Images/WebImages/tumblr_oi47j57OrC1sotuj5o2_500.gif");
+}
+#div5 {
+    background-image: url("../../Images/WebImages/Terminator002.jpg");
+}
+#div6 {
+    background-image: url("../../Images/WebImages/l8q3fcvjzllbgk5oovjs.jpg");
+}

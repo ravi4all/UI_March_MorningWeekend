@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #div1, #div3 {
+            width: 300px;
+        }
+        #div1 {
+            background-color: firebrick;
+        }
+        #div2 {
+            background-color: dodgerblue;
+        }
+        #div3 {
+            background-color: darkgoldenrod;
+        }
+        #div4 {
+            background-color: cadetblue;
+        }
+        .common {
+            height: 100px;
+        }
+        .nested {
+            height: 50px;
+        }
+        .common .nested {
+            background-color: dimgray;
+        }
+        #div2 .nested {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>ID Vs Class</h1>
+   
+   <div id="div1" class="common">
+       <div class="nested">
+           
+       </div>
+   </div>
+   <div id="div2" class="common">
+       <div class="nested">
+           
+       </div>
+   </div>
+   <div id="div3" class="common">
+       <div class="nested">
+           
+       </div>
+   </div>
+   <div id="div4" class="common">
+       <div class="nested">
+           
+       </div>
+   </div>
+    
+</body>
+</html>
