@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .two-columns {
+            background-color: red;
+        }
+        .column_1 {
+            float: left;
+            width: 60%;
+        }
+        .column_2 {
+            float: left;
+            width: 40%;
+        }
+        /*.column_3 {
+            background-color: red;
+        }*/
+        .row {
+            background-color: gray;
+        }
+        .clearfix:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Floating</h1>
+   
+   <div class="two-columns clearfix">
+       <div class="column_1">
+          <h2>Column_1</h2> 
+          <p>
+              The nested <span>if...else</span> statement allows you to execute a block code among many alternatives. If you are checking on the value of a single variable in <a href="#">nested if...else statement,</a> it is better to use switch statement.The switch statement is often faster than nested <span>if...else</span> (not always). Also, the syntax of switch statement is cleaner and easy to understand.
+          </p>
+       </div>
+       <div class="column_2">
+           <h2>Column_2</h2>
+           <img src="../../Images/image1.jpg" alt="" height="200" width="300">
+       </div>
+       <!--<div class="column_3">
+           <h2>Column_3</h2>
+       </div>-->
+   </div>
+   
+   <div class="row">
+       <h2>Div after Two Column Layout</h2>
+   </div>
+    
+</body>
+</html>
