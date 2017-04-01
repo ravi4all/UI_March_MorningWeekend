@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            /*display: table;*/
+            /*overflow: hidden;*/
+            background-color: red;
+        }
+        .wrapper:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .wrapper .col{
+            clear: left;
+        }
+        .column {
+            float: left;
+            width: 49%;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Floating</h1>
+   
+   <div class="wrapper">
+   <div class="column">
+      <h2>Column 1</h2>
+       <p>
+           Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+       </p>
+       <img src="../../Images/shopping/sidebar-img1.jpg" alt="">
+   </div>
+   
+   <div class="column">
+      <h2>Column 2</h2>
+       <!--<p>
+           Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+       </p>
+       <p>
+           Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+       </p>-->
+       <img src="../../Images/shopping/sidebar-img2.jpg" alt="">
+   </div>
+   <!--<div class="col">
+      <h2>Another Div</h2>
+       <p>
+           Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+       </p>
+       <img src="../../Images/shopping/sidebar-img2.jpg" alt="">
+   </div>-->
+    </div>
+   <div class="col">
+      <h2>Another Div</h2>
+       <p>
+           Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+       </p>
+       <img src="../../Images/shopping/sidebar-img2.jpg" alt="">
+   </div>
+   
+   <div class="col">
+      <h2>Another Div</h2>
+       <p>
+           Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+       </p>
+       <img src="../../Images/shopping/sidebar-img2.jpg" alt="">
+   </div>
+    
+</body>
+</html>
