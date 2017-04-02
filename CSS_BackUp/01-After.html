@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div p {
+            position: relative;
+            display: inline-block;
+        }
+        div p:before {
+            content: "";
+            /*background-image: url("right-arrow.png");
+            width: 30px;
+            height: 35px;
+            position: absolute;
+            right: -40px;*/
+            border: 1px solid red;
+            height: 1px;
+            width: 100px;
+        }
+        div p:after {
+            content: "";
+            border: 1px solid red;
+            height: 1px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Pseudo Elements : After</h1>
+   
+   <div>
+       <p>This is some demo text</p>
+       <br>
+       <p>This is some demo text</p>
+       <br>
+       <p>This is some demo text</p>
+       <br>
+       <p>This is some demo text</p>
+       <br>
+       <p>This is some demo text</p>
+       <br>
+       <p>This is some demo text</p>
+       <br>
+       <p>This is some demo text</p>
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .parent {
+            border: 2px solid red;
+        }
+        .clearfix:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .column {
+            float: left;
+            width: 50%;
+        }
+        .div1 {
+            background-color: red;
+        }
+        .blank {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Clearfix</h1>
+   
+   <div class="parent clearfix">
+       <div class="column">
+          <h2>Column_1</h2>
+           <img src="../../Images/WebImages/0c84c1948d7b32787aa6fa565505dacc_view.jpg" width="400" height="300" alt="">
+           <p>This is my first column This is my first column This is my first column This is my first column This is my first column This is my first column This is my first column </p>
+       </div>
+       <div class="column">
+           <img src="../../Images/WebImages/0c84c1948d7b32787aa6fa565505dacc_view.jpg" width="400" height="300" alt="">
+       </div>
+       <!--<div class="blank"></div>-->
+   </div>
+   
+   <div class="div1">
+       <p>This is outside parent div of floating elements</p>
+   </div>
+    
+</body>
+</html>
