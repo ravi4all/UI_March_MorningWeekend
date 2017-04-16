@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body { margin: 0; } 
+#banner { overflow-x: hidden; }
+#banner div img { width: 50%; float: left; }
+#banner div { 
+  position: relative;
+  width: 200%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  animation: 10s slidy infinite; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+45% { left: -100%; }
+50% { left: -100%; }
+95% { left: -200%; }
+100% { left: 0%; }
+}
+
+    </style>
+</head>
+<body>
+   
+   <h1>Moving Image</h1>
+   
+   <div id="banner">
+      <div>
+       <img src="../../Images/WebImages/batman_arkham_knight-1366x768.jpg" class="img1" alt="">
+       <img src="../../Images/WebImages/batman_arkham_knight-1366x768.jpg" class="img2" alt="">
+       </div>
+   </div>
+    
+</body>
+</html>
