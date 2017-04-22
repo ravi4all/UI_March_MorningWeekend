@@ -1,0 +1,40 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col {
+    float: left;
+    width: 48%;
+    border-right: 1px solid red;
+    padding: 0px 3px;
+    margin: 0px 3px;
+}
+.col:last-child {
+    border: none;
+}
+
+@media(min-width:1200px){
+    body {
+        background-image: url("../../Images/WebImages/wild_tiger.jpg");
+    }
+}
+@media(max-width:992px){
+    body {
+        background-image: url("../../Images/WebImages/Wolverine-hugh-jackman-rock-hard-fitness-2.jpg");
+    }
+}
+@media(max-width:767px){
+    body {
+        background-image: url("../../Images/WebImages/wallpaper_1277.jpg");
+    }
+}
+
+@media(max-width:767px){
+    .col {
+        float: none;
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid red;
+    }
+}
