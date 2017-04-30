@@ -1,0 +1,22 @@
+.red {
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.green {
+    height: 50px;
+    background-color: green;
+    border: 1px solid #fff;
+}
+
+@media(max-width:767px){
+    .red {
+        margin-bottom: 20px;
+        height: 140px;
+    }
+    .green {
+        margin-bottom: 10px;
+        height: 100px;
+    }
+}
